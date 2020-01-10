@@ -16,14 +16,14 @@
 #define S_MISO 9
 #define S_CLK 11
 #define S_CE0 8
-#define S_HOLD 25
-#define S_WP 24
+#define S_HOLD 20
+#define S_WP 20
 #define S_D0 S_MOSI
 #define S_D1 S_MISO
 #define S_D2 S_WP
 #define S_D3 S_HOLD
-static unsigned int F_RESET = 27;
-#define F_DONE 17
+static unsigned int F_RESET = 24;
+#define F_DONE 25
 
 // #define DEBUG_ICE40_PATCH
 
